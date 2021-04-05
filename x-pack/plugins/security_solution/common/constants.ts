@@ -350,6 +350,29 @@ export const ML_GROUP_IDS = [ML_GROUP_ID, LEGACY_ML_GROUP_ID] as const;
 export const NOTIFICATION_THROTTLE_NO_ACTIONS = 'no_actions' as const;
 export const NOTIFICATION_THROTTLE_RULE = 'rule' as const;
 
+/*
+  Rule notifications options
+*/
+//******************************************
+// TODO nabil: check if this is still needed
+export const ENABLE_CASE_CONNECTOR = true;
+export const NOTIFICATION_SUPPORTED_ACTION_TYPES_IDS = [
+  '.email',
+  '.slack',
+  '.pagerduty',
+  '.webhook',
+  '.servicenow',
+  '.jira',
+  '.resilient',
+  '.teams',
+  '.thehive',
+];
+
+if (ENABLE_CASE_CONNECTOR) {
+  NOTIFICATION_SUPPORTED_ACTION_TYPES_IDS.push('.case');
+}
+//******************************************
+
 export const showAllOthersBucket: string[] = [
   'destination.ip',
   'event.action',

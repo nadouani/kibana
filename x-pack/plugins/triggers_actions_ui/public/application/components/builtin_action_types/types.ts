@@ -178,3 +178,25 @@ export interface TeamsSecrets {
 export type TeamsActionConnector = UserConfiguredActionConnector<unknown, TeamsSecrets>;
 
 export type LogoProps = Omit<EuiIconProps, 'type'>;
+
+// TheHive
+export interface TheHiveConfig {
+  apiUrl?: string;
+}
+
+export interface TheHiveSecrets {
+  apiKey: string;
+}
+
+export type TheHiveActionConnector = UserConfiguredActionConnector<
+  TheHiveConfig,
+  TheHiveSecrets
+>;
+
+export interface TheHiveActionParams {
+  title?: string;
+  sourceRef?: string;
+  source?: string;
+  type?: string;
+  tags?: string[];
+}

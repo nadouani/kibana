@@ -7,6 +7,7 @@
 
 import { UsageCollectionSetup } from '@kbn/usage-collection-plugin/server';
 import { get } from 'lodash';
+
 import { TaskManagerStartContract } from '@kbn/task-manager-plugin/server';
 import { ActionsUsage, byServiceProviderTypeSchema, byTypeSchema } from './types';
 import { ActionsConfig } from '../config';

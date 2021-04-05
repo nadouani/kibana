@@ -68,7 +68,7 @@ export function getActionType(
   const { logger, configurationUtilities } = params;
   return {
     id: ActionTypeId,
-    minimumLicenseRequired: 'gold',
+    minimumLicenseRequired: 'basic',
     name: i18n.NAME,
     supportedFeatureIds: [
       AlertingConnectorFeatureId,

@@ -39,6 +39,7 @@ export const byTypeSchema: MakeSchemaFrom<ActionsUsage>['count_by_type'] = {
   __jira: { type: 'long' },
   __resilient: { type: 'long' },
   __teams: { type: 'long' },
+  __thehive: { type: 'long' },
 };
 
 export const byServiceProviderTypeSchema: MakeSchemaFrom<ActionsUsage>['count_active_email_connectors_by_service_type'] =

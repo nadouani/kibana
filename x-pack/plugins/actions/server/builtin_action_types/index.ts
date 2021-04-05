@@ -43,6 +43,7 @@ export { ActionTypeId as WebhookActionTypeId } from './webhook';
 export type { ActionParamsType as XmattersActionParams } from './xmatters';
 export { ActionTypeId as XmattersActionTypeId } from './xmatters';
 export type { ActionParamsType as ServiceNowActionParams } from './servicenow';
+import { getActionType as getTheHiveActionType } from './thehive';
 export {
   ServiceNowITSMActionTypeId,
   ServiceNowSIRActionTypeId,
@@ -54,6 +55,11 @@ export type { ActionParamsType as ResilientActionParams } from './resilient';
 export { ActionTypeId as ResilientActionTypeId } from './resilient';
 export type { ActionParamsType as TeamsActionParams } from './teams';
 export { ActionTypeId as TeamsActionTypeId } from './teams';
+
+export {
+  ActionParamsType as TheHiveActionParams,
+  ActionTypeId as TheHiveActionTypeId
+} from './thehive';
 
 export function registerBuiltInActionTypes({
   actionsConfigUtils: configurationUtilities,
@@ -83,4 +89,5 @@ export function registerBuiltInActionTypes({
   actionTypeRegistry.register(getJiraActionType({ logger, configurationUtilities }));
   actionTypeRegistry.register(getResilientActionType({ logger, configurationUtilities }));
   actionTypeRegistry.register(getTeamsActionType({ logger, configurationUtilities }));
+  actionTypeRegistry.register(getTheHiveActionType({ logger, configurationUtilities }));
 }

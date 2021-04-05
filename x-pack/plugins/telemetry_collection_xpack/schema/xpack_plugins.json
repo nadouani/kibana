@@ -97,6 +97,9 @@
             },
             "__teams": {
               "type": "long"
+            },
+            "__thehive": {
+              "type": "long"
             }
           }
         },
@@ -253,6 +256,9 @@
               "type": "long"
             },
             "__teams": {
+              "type": "long"
+            },
+            "__thehive": {
               "type": "long"
             }
           }
@@ -1727,6 +1733,96 @@
             "xpack__ml__anomaly_detection_alert": {
               "type": "long"
             },
+            "indexpattern_dimension_operation_cardinality": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the cardinality function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_filters": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the filters function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_range": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the range function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_median": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the median function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_percentile": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the percentile function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_last_value": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the last value function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_cumulative_sum": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the cumulative sum function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_counter_rate": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the counter rate function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_derivative": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the derivative function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_moving_average": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the moving average function was selected"
+              }
+            },
+            "open_field_editor_edit": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the user opened the editor flyout to edit a field from within Lens."
+              }
+            },
+            "open_field_editor_add": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the user opened the editor flyout to add a field from within Lens."
+              }
+            },
+            "save_field_edit": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the user edited a field from within Lens."
+              }
+            },
+            "save_field_add": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the user added a field from within Lens."
+              }
+            },
+            "open_field_delete_modal": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the user opened the field delete modal from within Lens."
+              }
+            },
             "xpack__ml__anomaly_detection_jobs_health": {
               "type": "long"
             }
@@ -1875,6 +1971,54 @@
             },
             "logs__alert__document__count": {
               "type": "long"
+            },
+            "indexpattern_dimension_operation_range": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the range function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_median": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the median function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_percentile": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the percentile function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_last_value": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the last value function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_cumulative_sum": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the cumulative sum function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_counter_rate": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the counter rate function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_derivative": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the derivative function was selected"
+              }
+            },
+            "indexpattern_dimension_operation_moving_average": {
+              "type": "long",
+              "_meta": {
+                "description": "Number of times the moving average function was selected"
+              }
             },
             "monitoring_alert_cluster_health": {
               "type": "long"
