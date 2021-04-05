@@ -46,6 +46,8 @@ export type {
   ResilientActionParams,
   TeamsActionTypeId,
   TeamsActionParams,
+  TheHiveActionTypeId,
+  TheHiveActionParams
 } from './builtin_action_types';
 
 export type { PluginSetupContract, PluginStartContract } from './plugin';

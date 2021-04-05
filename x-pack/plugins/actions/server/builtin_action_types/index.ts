@@ -19,6 +19,7 @@ import { getServiceNowITSMActionType, getServiceNowSIRActionType } from './servi
 import { getActionType as getJiraActionType } from './jira';
 import { getActionType as getResilientActionType } from './resilient';
 import { getActionType as getTeamsActionType } from './teams';
+import { getActionType as getTheHiveActionType } from './thehive';
 export { ActionParamsType as EmailActionParams, ActionTypeId as EmailActionTypeId } from './email';
 export {
   ActionParamsType as IndexActionParams,
@@ -49,6 +50,11 @@ export {
 } from './resilient';
 export { ActionParamsType as TeamsActionParams, ActionTypeId as TeamsActionTypeId } from './teams';
 
+export {
+  ActionParamsType as TheHiveActionParams,
+  ActionTypeId as TheHiveActionTypeId
+} from './thehive';
+
 export function registerBuiltInActionTypes({
   actionsConfigUtils: configurationUtilities,
   actionTypeRegistry,
@@ -73,4 +79,5 @@ export function registerBuiltInActionTypes({
   actionTypeRegistry.register(getJiraActionType({ logger, configurationUtilities }));
   actionTypeRegistry.register(getResilientActionType({ logger, configurationUtilities }));
   actionTypeRegistry.register(getTeamsActionType({ logger, configurationUtilities }));
+  actionTypeRegistry.register(getTheHiveActionType({ logger, configurationUtilities }));
 }

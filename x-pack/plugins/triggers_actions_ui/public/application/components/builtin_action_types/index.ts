@@ -17,6 +17,7 @@ import { getServiceNowITSMActionType, getServiceNowSIRActionType } from './servi
 import { getJiraActionType } from './jira';
 import { getResilientActionType } from './resilient';
 import { getTeamsActionType } from './teams';
+import { getTheHiveActionType } from './thehive';
 
 export function registerBuiltInActionTypes({
   actionTypeRegistry,
@@ -34,4 +35,5 @@ export function registerBuiltInActionTypes({
   actionTypeRegistry.register(getJiraActionType());
   actionTypeRegistry.register(getResilientActionType());
   actionTypeRegistry.register(getTeamsActionType());
+  actionTypeRegistry.register(getTheHiveActionType());
 }

@@ -39,6 +39,9 @@
             },
             "__resilient": {
               "type": "long"
+            },
+            "__thehive": {
+              "type": "long"
             }
           }
         },
@@ -72,6 +75,9 @@
               "type": "long"
             },
             "__resilient": {
+              "type": "long"
+            },
+            "__thehive": {
               "type": "long"
             }
           }
@@ -2010,35 +2016,51 @@
             },
             "indexpattern_dimension_operation_range": {
               "type": "long",
-              "_meta": { "description": "Number of times the range function was selected" }
+              "_meta": {
+                "description": "Number of times the range function was selected"
+              }
             },
             "indexpattern_dimension_operation_median": {
               "type": "long",
-              "_meta": { "description": "Number of times the median function was selected" }
+              "_meta": {
+                "description": "Number of times the median function was selected"
+              }
             },
             "indexpattern_dimension_operation_percentile": {
               "type": "long",
-              "_meta": { "description": "Number of times the percentile function was selected" }
+              "_meta": {
+                "description": "Number of times the percentile function was selected"
+              }
             },
             "indexpattern_dimension_operation_last_value": {
               "type": "long",
-              "_meta": { "description": "Number of times the last value function was selected" }
+              "_meta": {
+                "description": "Number of times the last value function was selected"
+              }
             },
             "indexpattern_dimension_operation_cumulative_sum": {
               "type": "long",
-              "_meta": { "description": "Number of times the cumulative sum function was selected" }
+              "_meta": {
+                "description": "Number of times the cumulative sum function was selected"
+              }
             },
             "indexpattern_dimension_operation_counter_rate": {
               "type": "long",
-              "_meta": { "description": "Number of times the counter rate function was selected" }
+              "_meta": {
+                "description": "Number of times the counter rate function was selected"
+              }
             },
             "indexpattern_dimension_operation_derivative": {
               "type": "long",
-              "_meta": { "description": "Number of times the derivative function was selected" }
+              "_meta": {
+                "description": "Number of times the derivative function was selected"
+              }
             },
             "indexpattern_dimension_operation_moving_average": {
               "type": "long",
-              "_meta": { "description": "Number of times the moving average function was selected" }
+              "_meta": {
+                "description": "Number of times the moving average function was selected"
+              }
             },
             "open_field_editor_edit": {
               "type": "long",
@@ -2217,35 +2239,51 @@
             },
             "indexpattern_dimension_operation_range": {
               "type": "long",
-              "_meta": { "description": "Number of times the range function was selected" }
+              "_meta": {
+                "description": "Number of times the range function was selected"
+              }
             },
             "indexpattern_dimension_operation_median": {
               "type": "long",
-              "_meta": { "description": "Number of times the median function was selected" }
+              "_meta": {
+                "description": "Number of times the median function was selected"
+              }
             },
             "indexpattern_dimension_operation_percentile": {
               "type": "long",
-              "_meta": { "description": "Number of times the percentile function was selected" }
+              "_meta": {
+                "description": "Number of times the percentile function was selected"
+              }
             },
             "indexpattern_dimension_operation_last_value": {
               "type": "long",
-              "_meta": { "description": "Number of times the last value function was selected" }
+              "_meta": {
+                "description": "Number of times the last value function was selected"
+              }
             },
             "indexpattern_dimension_operation_cumulative_sum": {
               "type": "long",
-              "_meta": { "description": "Number of times the cumulative sum function was selected" }
+              "_meta": {
+                "description": "Number of times the cumulative sum function was selected"
+              }
             },
             "indexpattern_dimension_operation_counter_rate": {
               "type": "long",
-              "_meta": { "description": "Number of times the counter rate function was selected" }
+              "_meta": {
+                "description": "Number of times the counter rate function was selected"
+              }
             },
             "indexpattern_dimension_operation_derivative": {
               "type": "long",
-              "_meta": { "description": "Number of times the derivative function was selected" }
+              "_meta": {
+                "description": "Number of times the derivative function was selected"
+              }
             },
             "indexpattern_dimension_operation_moving_average": {
               "type": "long",
-              "_meta": { "description": "Number of times the moving average function was selected" }
+              "_meta": {
+                "description": "Number of times the moving average function was selected"
+              }
             },
             "open_field_editor_edit": {
               "type": "long",

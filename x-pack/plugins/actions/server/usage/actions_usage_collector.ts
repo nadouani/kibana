@@ -23,6 +23,7 @@ const byTypeSchema: MakeSchemaFrom<ActionsUsage>['count_by_type'] = {
   __servicenow: { type: 'long' },
   __jira: { type: 'long' },
   __resilient: { type: 'long' },
+  __thehive: { type: 'long' },
 };
 
 export function createActionsUsageCollector(

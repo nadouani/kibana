@@ -181,6 +181,7 @@ export const NOTIFICATION_SUPPORTED_ACTION_TYPES_IDS = [
   '.jira',
   '.resilient',
   '.teams',
+  '.thehive',
 ];
 
 if (ENABLE_CASE_CONNECTOR) {
